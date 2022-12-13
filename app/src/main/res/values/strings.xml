@@ -12,4 +12,15 @@
         <item>Uhuru park</item>
         <item>Garden city</item>
     </string-array>
+
+    <string-array name="timeintervals_array">
+        <item>8:30am - 10:00am</item>
+        <item>11:00am - 12:00pm</item>
+        <item>1:00pm - 2:30pm</item>
+        <item>3:00pm - 4:00pm</item>
+        <item>4:00am - 6:00am</item>
+        <item>7:00am - 7:30am</item>
+        <item>5:00pm - 6:00pm</item>
+        <item>3:00pm - 4:00pm</item>
+    </string-array>
 </resources>

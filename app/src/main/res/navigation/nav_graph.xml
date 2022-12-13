@@ -18,7 +18,11 @@
         android:id="@+id/bookingFragment"
         android:name="com.steve_md.ndai.ui.BookingFragment"
         android:label="fragment_booking"
-        tools:layout="@layout/fragment_booking" />
+        tools:layout="@layout/fragment_booking" >
+        <action
+            android:id="@+id/action_bookingFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="com.steve_md.ndai.ui.main.DashboardFragment"
@@ -28,4 +32,9 @@
             android:id="@+id/action_dashboardFragment_to_bookingFragment"
             app:destination="@id/bookingFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.steve_md.ndai.ui.main.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
 </navigation>
